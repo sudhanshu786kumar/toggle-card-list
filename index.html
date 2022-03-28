@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>employee detailstitle</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css"
+      integrity="sha512-E+53kXnJyuZFSz75xSmTfCpUNj3gp9Bd80TeQQMTPJTVWDRHPOpEYczGwWtsZXvaiz27cqvhdH8U+g/NMYua3A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    
+    <div>
+      <div style="font-size: 3rem; float: right; padding-right: 10px" id="gridview">
+        <i class="fas fa-th" onclick="toggl()" style="color: aliceblue;">card</i>
+      </div>
+      <div
+        style="font-size: 3rem; float: right; padding-right: 10px"
+        id="tableview"
+      >
+        <i class="fas fa-th-list" style="color: white" onclick="toggl()">list</i>
+      </div>
+    </div>
+    <div class="cardv" id="cardvew">
+
+    </div>
+
+
+
+    <!-- table/list view -->
+    <div class="listv" id="listvew">
+      <table id="tablo" class="table">
+        <thead>
+          <th>Name</th>
+          <th>Id</th>
+          <th>Skills</th>
+          <th>Project</th>
+          <th>HCM</th>
+          <th>Edit</th>
+          <th>Drop</th>
+        </thead>
+      </table>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

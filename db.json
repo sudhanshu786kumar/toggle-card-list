@@ -1,0 +1,84 @@
+{
+  "employees": [
+    {
+      "name": "sudhanshu kumar",
+      "id": 1,
+      "skills": "ok",
+      "project": "CDB IOT",
+      "HCM": "Anil",
+      "gender": 0
+    },
+    {
+      "name": "Nidhi",
+      "id": 2,
+      "skills": "ok",
+      "project": "CDB IOT",
+      "HCM": "Anil",
+      "gender": 1
+    },
+    {
+      "name": "Sheena",
+      "id": 3,
+      "skills": "any,ui",
+      "project": "CDE FSE",
+      "HCM": "Jyoti",
+      "gender": 1
+    },
+    {
+      "name": "Raju",
+      "id": 4,
+      "skills": "Angular",
+      "project": "CDB DX",
+      "HCM": "Robin",
+      "gender": 0
+    },
+    {
+      "name": "Shweta",
+      "id": 5,
+      "skills": "AWS",
+      "project": "CDB DX",
+      "HCM": "Jyoti",
+      "gender": 1
+    },
+    {
+      "name": "Manish",
+      "id": 6,
+      "skills": "ANGULAR",
+      "project": "CDB DX",
+      "HCM": "Robin",
+      "gender": 0
+    },
+    {
+      "name": "Sani",
+      "id": 7,
+      "skills": "CLOUD",
+      "project": "CDB DX",
+      "HCM": "Robin",
+      "gender": 1
+    },
+    {
+      "name": "rajesh",
+      "id": 8,
+      "skills": "CSS",
+      "project": "CDB DX",
+      "HCM": "Robin",
+      "gender": 0
+    },
+    {
+      "name": "anjali",
+      "id": 9,
+      "skills": "JAVA",
+      "project": "CDB DX",
+      "HCM": "Robin",
+      "gender": 1
+    },
+    {
+      "name": "Sneha",
+      "id": 10,
+      "skills": "SQL",
+      "project": "CDB DX",
+      "HCM": "Robin",
+      "gender": 1
+    }
+  ]
+}
