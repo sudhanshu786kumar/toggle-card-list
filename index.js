@@ -76,7 +76,7 @@ fetch(`https://api-datac.herokuapp.com/employees/${n+1}`, {
     let d=document.getElementById("ed"+n);
     d.innerHTML='<i class="fa-solid fa-pen-to-square" onclick="edit+'+n+'"></i>'
 }
-
+c.innerHTML=a;
 }
 
 
