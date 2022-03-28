@@ -1,6 +1,6 @@
 let stats=false;
 const data = async()=>{
-    const dbdata= await fetch("http://localhost:3000/employees");
+    const dbdata= await fetch("https://api-datac.herokuapp.com/employees");
    const jdata= await dbdata.json();
   lisdata(jdata);
   cardedata(jdata);
@@ -62,7 +62,7 @@ if(rfd===""){
     alert("Please Enter some value")
 }else
 {
-fetch(`http://localhost:3000/employees/${n+1}`, {
+fetch(`https://api-datac.herokuapp.com/employees/${n+1}`, {
     method: 'PATCH',
     body: JSON.stringify({
       skills:`${a}`,
@@ -191,7 +191,7 @@ function savec(n){
     if(x==""){
         alert("enter some value")
     }else{
-    fetch(`http://localhost:3000/employees/${n+1}`, {
+    fetch(`https://api-datac.herokuapp.com/employees/${n+1}`, {
     method: 'PATCH',
     body: JSON.stringify({
       skills:`${x}`,
